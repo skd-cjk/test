@@ -1,0 +1,9 @@
+server.port: 8081
+
+solon.app:
+  name: 'demo-app'
+  group: 'demo'
+
+solon.staticfiles.mappings:
+  - path: "/static/"
+    repository: "classpath:static"

@@ -1,0 +1,116 @@
+span.name {
+    font-size: 1.5em;
+    color: blue;
+}
+
+/* 全局样式 */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* 设置背景颜色 */
+    display: flex; /* 使用flex布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+}
+
+/* 登录容器样式 */
+.login-container {
+    background-color: #ffffff; /* 设置背景颜色 */
+    padding: 20px; /* 设置内边距 */
+    border-radius: 8px; /* 设置边框圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 设置阴影效果 */
+    width: 300px; /* 设置宽度 */
+}
+
+/* 注册容器样式 */
+.register-container {
+    background-color: #ffffff; /* 背景色 */
+    padding: 20px; /* 内边距 */
+    border-radius: 8px; /* 边框圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    width: 300px; /* 宽度 */
+}
+
+/* 修改容器样式 */
+.edit-container {
+    background-color: #ffffff; /* 背景色 */
+    padding: 20px; /* 内边距 */
+    border-radius: 8px; /* 边框圆角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    width: 300px; /* 宽度 */
+}
+
+/* 标题样式 */
+h2 {
+    text-align: center; /* 文本居中 */
+    color: #333; /* 字体颜色 */
+}
+
+/* 表单样式 */
+form {
+    display: flex;
+    flex-direction: column; /* 纵向排列 */
+}
+
+/* 标签样式 */
+label {
+    display: flex; /* 使用flex布局 */
+    align-items: center; /* 垂直居中 */
+    margin-top: 10px; /* 上边距 */
+}
+
+/* 输入框和选择框样式 */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select {
+    padding: 10px; /* 内边距 */
+    margin-top: 5px; /* 上边距 */
+    border: 1px solid #ddd; /* 边框 */
+    border-radius: 4px; /* 边框圆角 */
+    box-sizing: border-box; /* 盒模型 */
+}
+
+/* 单选按钮样式 */
+input[type="radio"] {
+    margin-right: 5px; /* 右边距 */
+}
+
+/* 复选框样式 */
+.checkbox-wrapper {
+    display: flex; /* 使用flex布局 */
+    align-items: center; /* 垂直居中 */
+    margin-top: 5px; /* 上边距 */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px; /* 右边距 */
+}
+
+/* 提交按钮样式 */
+input[type="submit"] {
+    margin-top: 20px; /* 上边距 */
+    padding: 10px; /* 内边距 */
+    border: none; /* 无边框 */
+    border-radius: 4px; /* 边框圆角 */
+    background-color: #5cb85c; /* 背景色 */
+    color: white; /* 字体颜色 */
+    cursor: pointer; /* 鼠标样式 */
+}
+
+/* 提交按钮悬浮样式 */
+input[type="submit"]:hover {
+    background-color: #4cae4c; /* 背景色 */
+}
+
+/* 提示信息样式 */
+p {
+    text-align: center; /* 文本居中 */
+    color: red; /* 字体颜色 */
+    margin-top: 10px; /* 上边距 */
+}
+
+

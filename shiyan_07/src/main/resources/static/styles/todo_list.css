@@ -1,0 +1,45 @@
+/* 设置单元格的内边距和表格边框 */
+table {
+    width: 100%;
+    border-collapse: collapse; /* 确保边框合并，不会有重叠 */
+}
+th, td {
+    border: 1px solid #000; /* 设置单元格边框 */
+    padding: 10px; /* 设置单元格内边距 */
+    text-align: left; /* 设置文本对齐方式 */
+}
+th {
+    background-color: #f2f2f2; /* 设置表头背景颜色 */
+}
+/* 修改上一页和下一页的样式 */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* 增加间距 */
+}
+.pagination a {
+    margin: 0 5px; /* 增加间距 */
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s; /* 添加过渡效果 */
+}
+.pagination a:hover {
+    background-color: #e6e6e6;
+}
+
+/* 设置中间的当前页码背景框 */
+.pagination .current-page {
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* 给当前页码添加阴影效果 */
+.pagination .current-page {
+    text-shadow: 0 1px 0 #ccc;
+}
